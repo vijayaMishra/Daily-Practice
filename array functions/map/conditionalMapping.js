@@ -11,9 +11,10 @@ const products = [
 console.log(products);
 var discountedPrice = products.map(obj => {
     if(obj.price > 500) { 
-        obj.price = obj.price*0.9;
+        return { ...obj,price:obj.price*0.9};
     }
     return obj;
 } );
+console.log(products);
 
 console.log(discountedPrice);
