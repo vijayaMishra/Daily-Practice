@@ -1,7 +1,7 @@
 var pet = {
     name: "Kaveri",
     type: "Cow",
-    age: 2
+    22: "abc"
 };
 console.log("Old pet obj", pet);
 console.log(pet.name);
@@ -17,7 +17,7 @@ delete pet.age;
 console.log(pet);
 
 //searching property
-console.log("colour" in pet);
+console.log(name in pet);
 
 //iteration
 var fruitBasket = {"apple":5, "banana":3, "grape":10};
