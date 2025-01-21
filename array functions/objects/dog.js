@@ -17,3 +17,6 @@ console.log(dog);
 //deleting property from object
 delete dog.name;
 console.log(dog);
+
+//searching
+console.log("isCute" in dog);
