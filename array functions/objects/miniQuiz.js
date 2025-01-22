@@ -8,6 +8,6 @@
 var quiz = {
     question: "What is JavaScript?",
     answer: "A programming language."
-}
+};
 console.log(quiz.question);
 console.log(quiz.answer);
