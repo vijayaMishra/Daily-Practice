@@ -12,3 +12,7 @@ console.log(library.location.city);
 //Add a new book to the books array.
 library.books = "Atomic Habits";
 console.log(library);
+
+//adding a new book to books array
+library.books = "SP books";
+console.log(library);
