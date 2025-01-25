@@ -1,4 +1,4 @@
-const library = {
+var library = {
     name: "City Library",
     location: {
         street: "Main St",
@@ -15,4 +15,12 @@ console.log(library);
 
 //adding a new book to books array
 library.books = "SP books";
+console.log(library);
+
+//Dynamic Property Names
+//Write code to add a new property to an object where the key is stored in a variable.
+var newkey = "school";
+library = {
+    [newkey] : "St. Patrick's"
+}
 console.log(library);
