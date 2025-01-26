@@ -5,7 +5,11 @@ var scores = {
     "science" : 92,
     "english" : 91
 };
-for (marks in scores) {
-    var totalScore = scores.math+scores.science+scores.english;
+// for (marks in scores) {
+//     var totalScore = scores.math+scores.science+scores.english;
+// }
+var totalScore = 0;
+for (score in scores) {
+    totalScore = totalScore + scores[score];
 }
 console.log(totalScore);
