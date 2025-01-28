@@ -9,3 +9,8 @@ var arr3 = [4, 5, 6];
 
 const combinedArr = [ ...arr1, ...arr3];
 console.log(combinedArr);
+
+// Copying an Object
+const obj1 = { name: "Alice", age: 25};
+const obj2 = { ...obj1 };
+console.log(obj2);
