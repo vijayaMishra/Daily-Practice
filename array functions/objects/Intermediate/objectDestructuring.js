@@ -10,3 +10,4 @@ const {name, email} = user;
 
 console.log(name);
 console.log(email);
+console.log(user.age);
